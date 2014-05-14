@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated GlobalModel -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="GlobalModel.presentation.GlobalModelModelWizardID"
+            name="%_UI_GlobalModelModelWizard_label"
+            class="GlobalModel.presentation.GlobalModelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/GlobalModelModelFile.gif">
+         <description>%_UI_GlobalModelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated GlobalModel -->
+      <editor
+            id="GlobalModel.presentation.GlobalModelEditorID"
+            name="%_UI_GlobalModelEditor_label"
+            icon="icons/full/obj16/GlobalModelModelFile.gif"
+            extensions="globalmodel"
+            class="GlobalModel.presentation.GlobalModelEditor"
+            contributorClass="GlobalModel.presentation.GlobalModelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

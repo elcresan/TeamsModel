@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="1023" class="GlobalModel.presentation.GlobalModelEditorPlugin$Implementation" localization="plugin" name="%pluginName" project="TeamTemplateProject.editor" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1018" localization="plugin" name="%pluginName" project="TeamTemplateProject" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1019" localization="OSGI-INF/l10n/bundle" name="webTeams.generator.project" project="webTeams.generator.project"/>
+	<bundle bundleID="1022" class="GlobalModel.provider.GlobalModelEditPlugin$Implementation" localization="plugin" name="%pluginName" project="TeamTemplateProject.edit" provider="%providerName">
+		<library name="."/>
+	</bundle>
+</map>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_7JN4cNtJEeOUhpCCfcxpxQ" type="EcoreTools" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_7JUmINtJEeOUhpCCfcxpxQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_7JVNMNtJEeOUhpCCfcxpxQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_7JV0QNtJEeOUhpCCfcxpxQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JV0QdtJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JV0QttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JV0Q9tJEeOUhpCCfcxpxQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JV0RNtJEeOUhpCCfcxpxQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JV0RdtJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JV0RttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JV0R9tJEeOUhpCCfcxpxQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_7JUmIdtJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="GlobalModel.ecore#//App"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7JUmIttJEeOUhpCCfcxpxQ" x="368" y="435"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_7JWbUNtJEeOUhpCCfcxpxQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_7JWbU9tJEeOUhpCCfcxpxQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_7JXCYNtJEeOUhpCCfcxpxQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_7JXpdNtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Team/Name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JXpddtJEeOUhpCCfcxpxQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JXCYdtJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JXCYttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JXCY9tJEeOUhpCCfcxpxQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JXpcNtJEeOUhpCCfcxpxQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JXpcdtJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JXpcttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JXpc9tJEeOUhpCCfcxpxQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_7JWbUdtJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="GlobalModel.ecore#//Team"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7JWbUttJEeOUhpCCfcxpxQ" x="360" y="324"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_7JYQgNtJEeOUhpCCfcxpxQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_7JY3kNtJEeOUhpCCfcxpxQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_7JY3kdtJEeOUhpCCfcxpxQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_7JZeoNtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Player/Name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JZeodtJEeOUhpCCfcxpxQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7JZeottJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Player/YearOfBirth"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JZeo9tJEeOUhpCCfcxpxQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7JaFsNtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Player/Position"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JaFsdtJEeOUhpCCfcxpxQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7JaFsttJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Player/Number"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JaFs9tJEeOUhpCCfcxpxQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7JaFtNtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Player/Weight"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JaswNtJEeOUhpCCfcxpxQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7JaswdtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Player/Height"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JaswttJEeOUhpCCfcxpxQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JY3kttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JY3k9tJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JY3lNtJEeOUhpCCfcxpxQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JY3ldtJEeOUhpCCfcxpxQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JY3lttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JY3l9tJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JY3mNtJEeOUhpCCfcxpxQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_7JYQgdtJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="GlobalModel.ecore#//Player"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7JYQgttJEeOUhpCCfcxpxQ" y="128"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_7JbT0NtJEeOUhpCCfcxpxQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_7Jb64NtJEeOUhpCCfcxpxQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_7Jb64dtJEeOUhpCCfcxpxQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_7Jch8NtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Stadium/Name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jch8dtJEeOUhpCCfcxpxQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7Jch8ttJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Stadium/Capacity"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jch89tJEeOUhpCCfcxpxQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7Jb64ttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7Jb649tJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7Jb65NtJEeOUhpCCfcxpxQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7Jb65dtJEeOUhpCCfcxpxQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7Jb65ttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7Jb659tJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7Jb66NtJEeOUhpCCfcxpxQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_7JbT0dtJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="GlobalModel.ecore#//Stadium"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7JbT0ttJEeOUhpCCfcxpxQ" x="190" y="128"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_7JdJANtJEeOUhpCCfcxpxQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_7JdJA9tJEeOUhpCCfcxpxQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_7JdwENtJEeOUhpCCfcxpxQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_7JeXINtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//City/Name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JeXIdtJEeOUhpCCfcxpxQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7JeXIttJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//City/Country"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JeXI9tJEeOUhpCCfcxpxQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JdwEdtJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JdwEttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JdwE9tJEeOUhpCCfcxpxQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JdwFNtJEeOUhpCCfcxpxQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JdwFdtJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JdwFttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JdwF9tJEeOUhpCCfcxpxQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_7JdJAdtJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="GlobalModel.ecore#//City"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7JdJAttJEeOUhpCCfcxpxQ" x="392"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_7Je-MNtJEeOUhpCCfcxpxQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_7Je-M9tJEeOUhpCCfcxpxQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_7JflQNtJEeOUhpCCfcxpxQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_7JflSNtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Championship/Name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JflSdtJEeOUhpCCfcxpxQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7JgMUNtJEeOUhpCCfcxpxQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="GlobalModel.ecore#//Championship/Year"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7JgMUdtJEeOUhpCCfcxpxQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JflQdtJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JflQttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JflQ9tJEeOUhpCCfcxpxQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JflRNtJEeOUhpCCfcxpxQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7JflRdtJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7JflRttJEeOUhpCCfcxpxQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7JflR9tJEeOUhpCCfcxpxQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_7Je-MdtJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="GlobalModel.ecore#//Championship"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7Je-MttJEeOUhpCCfcxpxQ" x="550" y="128"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_7JN4cdtJEeOUhpCCfcxpxQ"/>
+  <element xmi:type="ecore:EPackage" href="GlobalModel.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_7JgMUttJEeOUhpCCfcxpxQ" type="3002" source="_7JUmINtJEeOUhpCCfcxpxQ" target="_7JWbUNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JgzYNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JgzYdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JgzYttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JgzY9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JgMU9tJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JgMVNtJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//App/Teams"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JgMVdtJEeOUhpCCfcxpxQ" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Ld7MNtJEeOUhpCCfcxpxQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Ld7MdtJEeOUhpCCfcxpxQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JhacNtJEeOUhpCCfcxpxQ" type="3002" source="_7JUmINtJEeOUhpCCfcxpxQ" target="_7JYQgNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JhadNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JhaddtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JhadttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jhad9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JhacdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JhacttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//App/Players"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7Jhac9tJEeOUhpCCfcxpxQ" points="[0, 0, 277, 171]$[-277, -61, 0, 110]$[-277, -171, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Lko4NtJEeOUhpCCfcxpxQ" id="(0.16666666666666666,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Lko4dtJEeOUhpCCfcxpxQ" id="(0.8307692307692308,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JiBgNtJEeOUhpCCfcxpxQ" type="3002" source="_7JUmINtJEeOUhpCCfcxpxQ" target="_7JbT0NtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JiBhNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JiBhdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JiBhttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JiBh9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JiBgdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JiBgttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//App/Stadiums"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JiBg9tJEeOUhpCCfcxpxQ" points="[0, 0, 151, 239]$[-151, -61, 0, 178]$[-151, -239, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Ll3ANtJEeOUhpCCfcxpxQ" id="(0.3333333333333333,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Ll3AdtJEeOUhpCCfcxpxQ" id="(0.5169491525423728,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JiokNtJEeOUhpCCfcxpxQ" type="3002" source="_7JUmINtJEeOUhpCCfcxpxQ" target="_7JdJANtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JiolNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JioldtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JiolttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jiol9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JiokdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JiokttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//App/Cities"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7Jiok9tJEeOUhpCCfcxpxQ" points="[0, 0, -37, 367]$[282, -61, 245, 306]$[291, -172, 254, 195]$[291, -307, 254, 60]$[37, -367, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LmeENtJEeOUhpCCfcxpxQ" id="(0.8333333333333334,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LnFINtJEeOUhpCCfcxpxQ" id="(0.765625,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JjPoNtJEeOUhpCCfcxpxQ" type="3002" source="_7JUmINtJEeOUhpCCfcxpxQ" target="_7Je-MNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JjPpNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JjPpdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JjPpttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JjPp9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JjPodtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JjPottJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//App/Championships"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JjPo9tJEeOUhpCCfcxpxQ" points="[0, 0, -161, 239]$[161, -61, 0, 178]$[161, -239, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LphYNtJEeOUhpCCfcxpxQ" id="(0.6666666666666666,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LphYdtJEeOUhpCCfcxpxQ" id="(0.3983050847457627,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7Jj2sNtJEeOUhpCCfcxpxQ" type="3002" source="_7JWbUNtJEeOUhpCCfcxpxQ" target="_7JdJANtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7Jj2tNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jj2tdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7Jj2tttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jj2t9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7Jj2sdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7Jj2sttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//Team/City"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7Jj2s9tJEeOUhpCCfcxpxQ" points="[0, 0, 1, 256]$[-72, -61, -71, 195]$[-72, -196, -71, 60]$[-1, -256, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LnsMNtJEeOUhpCCfcxpxQ" id="(0.711864406779661,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LnsMdtJEeOUhpCCfcxpxQ" id="(0.3984375,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JkdwNtJEeOUhpCCfcxpxQ" type="3002" source="_7JWbUNtJEeOUhpCCfcxpxQ" target="_7Je-MNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JkdxNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JkdxdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JkdxttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jkdx9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JkdwdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JkdwttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//Team/Honours"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7Jkdw9tJEeOUhpCCfcxpxQ" points="[0, 0, -99, 128]$[75, -61, -24, 67]$[99, -128, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LjawNtJEeOUhpCCfcxpxQ" id="(0.8983050847457628,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LkB0NtJEeOUhpCCfcxpxQ" id="(0.1271186440677966,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JlE0NtJEeOUhpCCfcxpxQ" type="3002" source="_7JWbUNtJEeOUhpCCfcxpxQ" target="_7JYQgNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JlE1NtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JlE1dtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JlE1ttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jlr4NtJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JlE0dtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JlE0ttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//Team/Players"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JlE09tJEeOUhpCCfcxpxQ" points="[0, 0, 261, 60]$[-261, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LhlkNtJEeOUhpCCfcxpxQ" id="(0.13559322033898305,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LiMoNtJEeOUhpCCfcxpxQ" id="(0.8846153846153846,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7Jlr4dtJEeOUhpCCfcxpxQ" type="3002" source="_7JWbUNtJEeOUhpCCfcxpxQ" target="_7JbT0NtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7Jlr5dtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jlr5ttJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7Jlr59tJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jlr6NtJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7Jlr4ttJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7Jlr49tJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//Team/Stadium"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7Jlr5NtJEeOUhpCCfcxpxQ" points="[0, 0, 140, 128]$[-101, -61, 39, 67]$[-140, -128, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LizsNtJEeOUhpCCfcxpxQ" id="(0.423728813559322,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LizsdtJEeOUhpCCfcxpxQ" id="(0.6779661016949152,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JmS8NtJEeOUhpCCfcxpxQ" type="3002" source="_7JYQgNtJEeOUhpCCfcxpxQ" target="_7JWbUNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JmS9NtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JmS9dtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JmS9ttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JmS99tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JmS8dtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JmS8ttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//Player/Team"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JmS89tJEeOUhpCCfcxpxQ" points="[0, 0, -271, -60]$[271, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LcGANtJEeOUhpCCfcxpxQ" id="(0.9384615384615385,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LcGAdtJEeOUhpCCfcxpxQ" id="(0.2796610169491525,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7Jm6ANtJEeOUhpCCfcxpxQ" type="3002" source="_7JbT0NtJEeOUhpCCfcxpxQ" target="_7JdJANtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7Jm6BNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jm6BdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7Jm6BttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Jm6B9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7Jm6AdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7Jm6AttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//Stadium/City"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7Jm6A9tJEeOUhpCCfcxpxQ" points="[0, 0, -180, 60]$[180, -60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LfJUNtJEeOUhpCCfcxpxQ" id="(0.3305084745762712,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LfJUdtJEeOUhpCCfcxpxQ" id="(0.1328125,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JnhENtJEeOUhpCCfcxpxQ" type="3002" source="_7JbT0NtJEeOUhpCCfcxpxQ" target="_7JWbUNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JnhFNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JnhFdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JnhFttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JnhF9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JnhEdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JnhEttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//Stadium/Teams"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JnhE9tJEeOUhpCCfcxpxQ" points="[0, 0, -138, -128]$[1, 67, -137, -61]$[138, 128, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LfwYNtJEeOUhpCCfcxpxQ" id="(0.8389830508474576,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LgXcNtJEeOUhpCCfcxpxQ" id="(0.5677966101694916,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JoIINtJEeOUhpCCfcxpxQ" type="3002" source="_7JdJANtJEeOUhpCCfcxpxQ" target="_7JWbUNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JoIJNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JoIJdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JoIJttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JoIJ9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JoIIdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JoIIttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//City/Teams"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JoII9tJEeOUhpCCfcxpxQ" points="[0, 0, 0, -256]$[0, 256, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LoTQNtJEeOUhpCCfcxpxQ" id="(0.5390625,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Lo6UNtJEeOUhpCCfcxpxQ" id="(0.8559322033898306,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JoIKNtJEeOUhpCCfcxpxQ" type="3002" source="_7JdJANtJEeOUhpCCfcxpxQ" target="_7JbT0NtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JovMNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JovMdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JovMttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JovM9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JoIKdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JoIKttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//City/Stadiums"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JoIK9tJEeOUhpCCfcxpxQ" points="[0, 0, 158, -60]$[-158, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LdUINtJEeOUhpCCfcxpxQ" id="(0.265625,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7LdUIdtJEeOUhpCCfcxpxQ" id="(0.6610169491525424,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7JovNNtJEeOUhpCCfcxpxQ" type="3002" source="_7Je-MNtJEeOUhpCCfcxpxQ" target="_7JWbUNtJEeOUhpCCfcxpxQ">
+    <children xmi:type="notation:Node" xmi:id="_7JpWQNtJEeOUhpCCfcxpxQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JpWQdtJEeOUhpCCfcxpxQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7JpWQttJEeOUhpCCfcxpxQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7JpWQ9tJEeOUhpCCfcxpxQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_7JovNdtJEeOUhpCCfcxpxQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7JovNttJEeOUhpCCfcxpxQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="GlobalModel.ecore#//Championship/Winner"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7JovN9tJEeOUhpCCfcxpxQ" points="[0, 0, 109, -128]$[-18, 67, 91, -61]$[-109, 128, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Lg-gNtJEeOUhpCCfcxpxQ" id="(0.2627118644067797,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7Lg-gdtJEeOUhpCCfcxpxQ" id="(0.9491525423728814,0.0)"/>
+  </edges>
+</notation:Diagram>

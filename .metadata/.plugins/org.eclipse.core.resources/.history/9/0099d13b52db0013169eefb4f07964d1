@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/TeamTemplateProject/src" modelPluginID="TeamTemplateProject"
+    modelName="GlobalModel" rootExtendsInterface="org.eclipse.emf.cdo.CDOObject" rootExtendsClass="org.eclipse.emf.internal.cdo.CDOObjectImpl"
+    reflectiveDelegation="true" importerID="org.eclipse.emf.importer.cdo" featureDelegation="Reflective"
+    complianceLevel="7.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>GlobalModel.ecore</foreignModel>
+  <modelPluginVariables>CDO=org.eclipse.emf.cdo</modelPluginVariables>
+  <genPackages prefix="GlobalModel" disposableProviderFactory="true" ecorePackage="GlobalModel.ecore#/">
+    <genClasses ecoreClass="GlobalModel.ecore#//App">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//App/Teams"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//App/Players"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//App/Stadiums"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//App/Cities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//App/Championships"/>
+    </genClasses>
+    <genClasses ecoreClass="GlobalModel.ecore#//Team">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Team/Name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//Team/City"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//Team/Honours"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//Team/Players"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//Team/Stadium"/>
+    </genClasses>
+    <genClasses ecoreClass="GlobalModel.ecore#//Player">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Player/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Player/YearOfBirth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Player/Position"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Player/Number"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference GlobalModel.ecore#//Player/Team"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Player/Weight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Player/Height"/>
+    </genClasses>
+    <genClasses ecoreClass="GlobalModel.ecore#//Stadium">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Stadium/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Stadium/Capacity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//Stadium/City"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//Stadium/Teams"/>
+    </genClasses>
+    <genClasses ecoreClass="GlobalModel.ecore#//City">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//City/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//City/Country"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//City/Teams"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//City/Stadiums"/>
+    </genClasses>
+    <genClasses ecoreClass="GlobalModel.ecore#//Championship">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Championship/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GlobalModel.ecore#//Championship/Year"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference GlobalModel.ecore#//Championship/Winner"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

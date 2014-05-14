@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated GlobalModel -->
+      <package
+            uri="/TeamTemplateProject/model"
+            class="GlobalModel.GlobalModelPackage"
+            genModel="model/GlobalModel.genmodel"/>
+   </extension>
+
+</plugin>
